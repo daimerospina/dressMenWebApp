@@ -13,3 +13,17 @@
   width: 80%;
   height: 300px;
 }
+
+.description{
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1.serif {
+  font-family: "Times New Roman", Times, serif;
+}

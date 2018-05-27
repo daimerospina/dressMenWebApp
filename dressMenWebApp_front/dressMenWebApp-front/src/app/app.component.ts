@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+/*import { Enterprise } from './enterprise';*/
 
 @Component({
   selector: 'app-root',
@@ -13,4 +14,9 @@ export class AppComponent {
   }*/
   title = 'app';
   //atributos de la clase
+
+
+  /*public enterprise:Enterprise  = new Enterprise;*/
 }
+
+

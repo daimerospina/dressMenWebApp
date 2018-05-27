@@ -11,6 +11,8 @@ import { FooterComponent } from './footer/footer.component';
 import { CartComponent } from './cart/cart.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { CatalogBodyComponent } from './catalog-body/catalog-body.component';
+import { OrderFormBodyComponent } from './order-form-body/order-form-body.component';
+import { OrderFormComponent } from './order-form/order-form.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { CatalogBodyComponent } from './catalog-body/catalog-body.component';
     FooterComponent,
     CartComponent,
     CatalogComponent,
-    CatalogBodyComponent
+    CatalogBodyComponent,
+    OrderFormBodyComponent,
+    OrderFormComponent
   ],
   imports: [
     BrowserModule,RouteRoutingModule,HttpClientModule

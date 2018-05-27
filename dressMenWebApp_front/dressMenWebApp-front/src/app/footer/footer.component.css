@@ -1,8 +1,11 @@
 .mastfoot{
   position: fixed;
-  button: 0;
 }
 
 .inner{
   padding: 30px;
+}
+
+p.serif {
+  font-family: "Times New Roman", Times, serif;
 }

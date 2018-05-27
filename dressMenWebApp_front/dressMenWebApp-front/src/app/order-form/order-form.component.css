@@ -1,3 +1,11 @@
 .div-form{
   margin-top: 50px;
 }
+
+.button{
+  text-align: center;
+}
+
+p.serif {
+  font-family: "Times New Roman", Times, serif;
+}

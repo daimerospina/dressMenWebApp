@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Catalog } from './catalog';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 @Component({
@@ -8,10 +7,9 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
   styleUrls: ['./catalog.component.css']
 })
 export class CatalogComponent implements OnInit {
-  private urlProducts = 'http://localhost:8080/products/product';
+  private urlProducts = 'http://ec2-34-219-6-196.us-west-2.compute.amazonaws.com:8080/products/product';
   public productList:any;
   
-
   constructor(public http: HttpClient) {
     this.getProducts();
    }

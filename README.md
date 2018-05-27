@@ -18,10 +18,9 @@ There are two projects, one exposes and API Rest that serves the categories and 
 The API services are published in the next public URLs (in a AWS Lunux server):
   Note: See the API documentations to know how to consume the resources.
   * Categories
-        -Full Swagger documentacion: `http://ec2-34-219-6-196.us-west-2.compute.amazonaws.com:8080/products`
+        * Full Swagger documentacion: `http://ec2-34-219-6-196.us-west-2.compute.amazonaws.com:8080/products`
   * Order
-        -Full Swagger documentacion: `http://ec2-34-219-6-196.us-west-2.compute.amazonaws.com:8081/order`
-        
+        * Full Swagger documentacion: `http://ec2-34-219-6-196.us-west-2.compute.amazonaws.com:8081/order`
         
 ### Build projects
 

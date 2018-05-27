@@ -1,9 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule }   from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { SliderComponent } from './home/slider/slider.component';
 import { RouteRoutingModule } from './route/route-routing.module';
 import { HttpClientModule, HttpHeaders } from '@angular/common/http';
 import { HeaderComponent } from './header/header.component';
@@ -18,7 +17,6 @@ import { OrderFormComponent } from './order-form/order-form.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    SliderComponent,
     HeaderComponent,
     FooterComponent,
     CartComponent,
@@ -26,9 +24,13 @@ import { OrderFormComponent } from './order-form/order-form.component';
     CatalogBodyComponent,
     OrderFormBodyComponent,
     OrderFormComponent
+
   ],
   imports: [
-    BrowserModule,RouteRoutingModule,HttpClientModule
+    BrowserModule,
+    RouteRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,9 +1,9 @@
 <div class="container">
   <div class="div-form">
-    <form>
+    <form (ngSubmit)="onSubmit(orderForm);" #orderForm="ngForm">
       <div class="row">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Nombre solicitante">
+          <input #nombre maxlength="20"  required type="text" class="form-control" placeholder="Nombre solicitante">
         </div>
         <div class="col">
           <div class="form-group col-md-12">
@@ -24,7 +24,7 @@
       </div>
 
 
-      <p>Señor usuario, le informamos que el precio del transporte no está incluido y dependerá
+      <p style="color: darkred;">Señor usuario, le informamos que el precio del transporte no está incluido y dependerá
         del lugar de entrega, este se deberá cancelar junto con el valor del pedido en el momento de la
         entrega.</p>
 

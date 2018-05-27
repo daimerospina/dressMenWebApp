@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
     let enterprise:Enterprise  = new Enterprise;
     enterprise.name = "Daos";
     enterprise.image = '../../assets/images/distribuidora-daos-logo-1454518252.jpg';
-    enterprise.description = "Empresa dedicada a la comercialización de productos derivados del cerdo ibérico, a través de Internet, con la posibilidad de ir ampliando progresivamente la gama de productos agroalimentarios disponibles, siguiendo siempre la más estricta línea de calidad de nuestros productos (vinos, aceite, queso, miel, productos ecológicos...)";
+    enterprise.description = "Empresa dedicada a la comercialización de productos textileros del seda ibérica, a través de Internet, con la posibilidad de ir ampliando progresivamente la gama de productos de vestuario disponibles, siguiendo siempre la más estricta línea de calidad de nuestros productos (Camisas, pantalones, chachetas, corbatas, etc). Nos destacamos en el mercado por la gran calidad de nuestros productos y el buen servio hacia el cliente.";
     enterprise.contact = {
       phone:"263 32 75",
       cel_phone:"311 605 9483",

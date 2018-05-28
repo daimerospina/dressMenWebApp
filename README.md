@@ -9,7 +9,7 @@ This is a MVC project that is composed by three modules:
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-To see the flow and how the application works, whatch the [video](https://www.youtube.com/watch?v=plHQq-HBo9o)
+To see the flow and how the application works, whatch the [video](https://youtu.be/9v38F8DcbUk)
 
 ## Back-end
 
@@ -17,10 +17,8 @@ There are two projects, one exposes and API Rest that serves the categories and 
 
 The API services are published in the next public URLs (in a AWS Lunux server):
   Note: See the API documentations to know how to consume the resources.
-  * Categories
-        * Full Swagger documentacion: `http://ec2-34-219-6-196.us-west-2.compute.amazonaws.com:8080/products`
-  * Order
-        * Full Swagger documentacion: `http://ec2-34-219-6-196.us-west-2.compute.amazonaws.com:8081/order`
+  * Categories -> Full Swagger documentacion: `http://ec2-34-219-6-196.us-west-2.compute.amazonaws.com:8080/products`
+  * Order -> Full Swagger documentacion: `http://ec2-34-219-6-196.us-west-2.compute.amazonaws.com:8081/order`
         
 ### Build projects
 
